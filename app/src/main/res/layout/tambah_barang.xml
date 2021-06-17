@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard"
+    tools:context=".TambahBarang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_selanjutnya"
+        android:layout_marginTop="190dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Barang"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsreg"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tambah_barang_txt"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kamera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:id="@+id/gambarBarang"/>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/addcamera"
+        android:gravity="fill"
+        android:layout_marginTop="293dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/btn_addgambar"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nama_barang"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/gambarBarang"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_namabarang"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_namabarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_namabarang"
+        android:hint="@string/masukkan_nama_barang"
+        android:fontFamily="@font/poppinsreg"
+        android:paddingLeft="25dp"
+        android:id="@+id/edtNamabarang"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_deskripsi_barang"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/edtNamabarang"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_deskbarang"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_deskbarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_deskbarang"
+        android:hint="@string/masukkan_deskripsi_barang"
+        android:gravity="top"
+        android:fontFamily="@font/poppinsreg"
+        android:paddingLeft="25dp"
+        android:paddingTop="5dp"
+        android:id="@+id/edtDeskbarang"/>
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_below="@+id/edtDeskbarang"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/button_next"
+        android:fontFamily="@font/poppinsreg"
+        android:text="Tambah"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

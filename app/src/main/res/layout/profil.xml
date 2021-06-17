@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard"
+    tools:context=".Profil">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambarhome"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/gambar_home"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_pencarian"
+        android:layout_marginTop="335dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil Anda"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/cari_barang_txt"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="18sp"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="398dp"
+        android:id="@+id/txt_namaa"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_namabarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_namaa"
+        android:text="Nama"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:id="@+id/text_nama"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/text_nama"
+        android:id="@+id/txt_emaill"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_namabarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_emaill"
+        android:text="Email"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:id="@+id/text_email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telepon"
+        android:textSize="18sp"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/text_email"
+        android:id="@+id/txt_nohpp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_namabarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_nohpp"
+        android:text="Nomor Telepon"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:id="@+id/text_nomorhp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/bottom_nav"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/button_next"
+        android:fontFamily="@font/poppinsreg"
+        android:text="Keluar"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_nav"
+        app:menu="@menu/main_menu"
+        app:labelVisibilityMode="labeled"
+        app:itemBackground="@color/white"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:backgroundTint="#D1D1D1"
+        android:layout_alignParentBottom="true">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

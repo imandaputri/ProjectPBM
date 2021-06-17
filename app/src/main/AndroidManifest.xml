@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.looting">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Looting">
+        <activity android:name=".Notifikasi"></activity>
+        <activity android:name=".SemuaBarang" />
+        <activity android:name=".InformasiApplikasi" />
+        <activity android:name=".Pengaduan" />
+        <activity android:name=".Riwayat" />
+        <activity
+            android:name=".TemuanAnda"
+            android:label="Temuan Anda"
+            android:parentActivityName=".TambahBarang" />
+        <activity android:name=".TambahBarang" />
+        <activity android:name=".Profil" />
+        <activity android:name=".Pencarian" />
+        <activity android:name=".Beranda" />
+        <activity android:name=".Daftar" />
+        <activity android:name=".Masuk" />
+        <activity android:name=".SlashScreenKetiga" />
+        <activity android:name=".SlashScreenKedua" />
+        <activity android:name=".SlashScreenPertama" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

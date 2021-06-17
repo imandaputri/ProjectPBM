@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Looting</string>
+    <string name="txt_cari_barang_hilang">Cari Barang Hilang?</string>
+    <string name="txt_slashpertama">Tak Dapat Dipungkiri, Kehilangan Barang Sudah Menjadi Hal Yang Biasa Terjadi Di Tengah-Tengah Masyarakat. Jika Hal Ini Terjadi, Segera Lapor Pada Aplikasi Ini.</string>
+    <string name="selanjutnya1">Selanjutnya</string>
+    <string name="txt_jumpai_penemu">Jumpai Penemu Barang</string>
+    <string name="txt_slashkedua">Selain Dapat Menemukan Kembali Barang Yang Hilang, Kita Juga Dapat Menambah Relasi Dan Silaturrahmi Dengan Penemu Barang Tersebut.</string>
+    <string name="selanjutnya2">Selanjutnya</string>
+    <string name="txt_bawa_kembali">Bawa Kembali Barangmu</string>
+    <string name="txt_slashketiga">Jangan Lupa Simpan Baik-Baik Barang Berhargamu Dan Selalu Gunakan Aplikasi Ini Untuk Memudahkan Kamu Dalam Mencari Barang Yang Hilang.</string>
+    <string name="mulai">Mulai</string>
+    <string name="email">Email</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="masuk">Masuk</string>
+    <string name="txt_daftar">Daftar</string>
+    <string name="txt_masuk">Masuk</string>
+    <string name="txt_nama">Nama</string>
+    <string name="txt_nomor_telepon">Nomor Telepon</string>
+    <string name="txt_daftar1">Daftar</string>
+    <string name="txt_sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="txt_setuju">Saya Setuju Dengan Ketentuan Penggunaan Looting</string>
+    <string name="masuk_daridaftar">Masuk</string>
+    <string name="ulangi_kata_sandi">Ulangi Kata Sandi</string>
+    <string name="txt_sandi_daftar">Kata Sandi</string>
+    <string name="temukan">Temukan</string>
+    <string name="barangmu_disini">Barangmu Disini</string>
+    <string name="add_barang">Tambah Barang</string>
+    <string name="hist">Riwayat</string>
+    <string name="notif">Notifikasi</string>
+    <string name="pengaduan">Pengaduan</string>
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_pencarian">Pencarian</string>
+    <string name="menu_profil">Profil</string>
+    <string name="txt_nama_barang">Nama Barang</string>
+    <string name="masukkan_nama_barang">Masukkan nama barang</string>
+    <string name="txt_deskripsi_barang">Deskripsi Barang</string>
+    <string name="masukkan_deskripsi_barang">Masukkan deskripsi barang</string>
+    <string name="tentang_looting">Looting merupakan singkatan dari Looking for the Thing, yang merupakan sebuah aplikasi penyedia layanan untuk mencari ataupun menemukan barang yang hilang.</string>
+    <string name="semua_barang_beranda">Semua Barang</string>
+    <string name="tentang_aplikasi_beranda">Tentang Aplikasi</string>
+    <string name="txt_notif">Temuan Anda Berhasil di Posting</string>
+    <string name="temuan_anda_beranda">Temuan Anda</string>
+
+
+</resources>

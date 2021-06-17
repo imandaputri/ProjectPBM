@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard"
+    tools:context=".InformasiApplikasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_selanjutnya"
+        android:layout_marginTop="190dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang Aplikasi"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/riwayat_txt"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Looting"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/txt_tentanglooting"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_deskbarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_tentanglooting"
+        android:text="@string/tentang_looting"
+        android:textSize="17sp"
+        android:textColor="#000000"
+        android:gravity="left"
+        android:fontFamily="@font/poppinsreg"
+        android:paddingLeft="25dp"
+        android:paddingTop="40dp"
+        android:id="@+id/txt_looting"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Pengembang"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/txt_looting"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tentangpengembang"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_namabarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/tentangpengembang"
+        android:text="Hijaiyah Imanda Putri"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="#000000"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:id="@+id/txt_hijaiyah"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_namabarang"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/txt_hijaiyah"
+        android:text="Adika Nuraga KSR"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="#000000"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:id="@+id/txt_adika"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_below="@+id/txt_adika"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/button_next"
+        android:fontFamily="@font/poppinsreg"
+        android:text="OK"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

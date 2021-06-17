@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_slashscreen1"
+    tools:context=".Masuk">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_masuk"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="230dp"
+        android:textSize="24sp"
+        android:id="@+id/txt_masuk"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/txt_masuk"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsreg"
+        android:paddingLeft="30dp"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="20dp"
+        android:drawableTint="#FF9F47"
+        android:inputType="textEmailAddress"
+        android:id="@+id/txt_email"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/txt_email"
+        android:layout_marginTop="20dp"
+        android:hint="@string/kata_sandi"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsreg"
+        android:paddingLeft="30dp"
+        android:drawableStart="@drawable/katasandi"
+        android:drawablePadding="20dp"
+        android:drawableTint="#FF9F47"
+        android:inputType="textPassword"
+        android:id="@+id/txt_katasandi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lupa Kata Sandi?"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="#FF9F47"
+        android:layout_below="@+id/txt_katasandi"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txt_lupasandi"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_lupasandi"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:text="@string/masuk"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:background="@drawable/button_next"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppinsreg"
+        android:id="@+id/btn_masuk"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun?"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinsreg"
+        android:textSize="16sp"
+        android:layout_below="@+id/btn_masuk"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:id="@+id/txt_belumakun"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:textColor="#FF9F47"
+        android:fontFamily="@font/poppinsreg"
+        android:textSize="16sp"
+        android:layout_below="@+id/txt_belumakun"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/txt_daftar_darimasuk"/>
+
+
+
+</RelativeLayout>
